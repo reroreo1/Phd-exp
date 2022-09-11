@@ -2,11 +2,12 @@
 import React from "react";
 import Section from "./Section";
 import Login from "./Login"
+import "./App.css";
 function App() {
-  return (<>
-    <Login/>
-    <Section/>
-    </>
+  return (<div className="back1">
+    <Login className="split right"/>
+    <Section className="split left"/>
+    </div>
   );
 }
 

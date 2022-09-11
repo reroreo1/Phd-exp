@@ -5,13 +5,15 @@ import "./style.css"
 
 function Login(){
 	return (
-		<div className="split right">
+		<div className="split right main">
+			<div className="submain">
 			<h2 className="title">Welcome</h2>
 			<label>Email :</label>
-			<input className="input container"></input>
+			<input></input>
 			<label>Password :</label>
-			<input className="input container"></input>
-			<button className="center">Login</button>
+			<input></input>
+			<button className="button">Login</button>
+			</div>
 		</div>
 	);
 }
