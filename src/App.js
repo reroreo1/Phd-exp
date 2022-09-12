@@ -4,10 +4,11 @@ import Section from "./Section";
 import Login from "./Login"
 import "./App.css";
 function App() {
-  return (<>
+  return (
+  <div className = "wholeshit">
           <Login className="split right"/>
           <Section className="split left"/>
-    </>
+    </div>
   );
 }
 

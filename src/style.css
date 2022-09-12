@@ -1,3 +1,13 @@
+
+html body
+{
+	background: url("../farm.jpg.webp") no-repeat center center fixed; 
+	background-size: cover;
+}
+.wholeshit
+{
+	display: flex;
+}
 .title{
 	display: flex;
 	justify-content: center;
@@ -45,9 +55,9 @@
 	align-items: center;
 	justify-content: space-around;
 	background-color: #27A97C;
-	height: 550px;
+	height: 29rem;
 	border-radius: 7px;
-	width: 70%;
+	width: 28.563rem;
 }
 .button{
 	background-color: #1D4A3D;
