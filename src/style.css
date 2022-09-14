@@ -1,6 +1,9 @@
 
 html body
 {
+	margin : 0;
+	padding : 0;
+	height: 100vh;
 	background: url("../farm.jpg.webp") no-repeat center center fixed; 
 	background-size: cover;
 }
@@ -19,8 +22,7 @@ html body
 .title1{
 	display: flex;
 	justify-content: flex-start;
-	padding-left: 20px;
-	margin: 40px 0 0 78px;
+	padding-left: 15%;
 	color: #D9FFD0;
 	font-family: 'Inter', sans-serif;
 	font-weight: 700;
@@ -60,6 +62,11 @@ html body
 	width: 28.563rem;
 }
 .button{
+		user-select: none;
+	   -webkit-user-select: none;
+	   -khtml-user-select: none;
+	   -moz-user-select: none;
+	   -ms-user-select: none;
 	background-color: #1D4A3D;
 	width: 30%;
 	margin: 20px;
@@ -72,5 +79,78 @@ html body
   	text-align: center;
   	display: inline-block;
   	font-size: 20px;
+}
+button {
+	border-radius: 4px;
+	background-color: #5ca1e1;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	padding: 16px;
+	width: 220px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 36px;
+	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+.button{
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+ }
+ 
+.button:after {
+content: '»';
+position: absolute;
+opacity: 0;  
+top: 14px;
+right: -20px;
+transition: 0.5s;
+ }
+ 
+.button:hover{
+padding-right: 24px;
+padding-left:8px;
+ }
+ 
+.button:hover:after {
+opacity: 1;
+right: 10px;
+ }
+.Ftext{
+	font-size: 32px;
+	padding-top: 20%;
+	padding-left: 15%;
+	color: #D9FFD0;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	inline-size: 70%;
+}
+
+.text{
+	font-size: 28px;
+	padding-left: 15%;
+	color: #D9FFD0;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	inline-size: 70%;
+}
+.imgholder{
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 60%; 
+	left: 12%;
+}
+.e2{
+	position:relative;
+	width: 70%;
+	left : 15%;
+	top :-50px;
 }
 

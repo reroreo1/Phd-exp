@@ -2,7 +2,9 @@ import React from "react";
 // import styled from "styled-components"
 import "./style.css"
 
-
+function sayHi(){
+	alert('Hi Hi Hi Hi Hi');
+}
 function Login(){
 	return (
 		<div className="split right main">
@@ -12,7 +14,7 @@ function Login(){
 				<input className="input" placeholder="E-mail"></input>
 				{/* <label className="text">Password :</label> */}
 				<input type="password" className="input" placeholder="Password"></input>
-				<button className="button">Log in</button>
+				<button type="button" onClick={sayHi} className="button">Log in</button>
 			</div>
 		</div>
 	);
